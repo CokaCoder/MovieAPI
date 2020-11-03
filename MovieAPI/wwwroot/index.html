@@ -1,0 +1,80 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Welcome to Jonathan Warner's Web API</title>
+<meta name="description">
+<meta name="keywords" content="html5, css3, lynda, local storage, canvas, forms, semantics, web apps">
+<!--make sure mobile devices display the page at the proper scale	-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link href="/css/main.css" rel="stylesheet" type="text/css" media="screen, projection">
+</head>
+<body id="home" class="no-js">
+<div id="wrapper">
+  <header id="mainHeader"> <a href="/" title="home" class="logo">
+   <!-- I need this div because IE is an affront to mankind-->
+    <div style="margin-top:50px;">
+        <h1>Jonathans Web API C# .NET Core</h1>
+    </div>
+    </a>
+    <div style="height: 800px"></div>
+
+
+
+
+  </header>
+  <section id="actionCall" style="color:white;padding-right:75px;">
+      <h1>Jonathan Warner, Web API C# .NET Core 3.1</h1>
+      <p>Please use Postman to test.</p>
+      <p>In the examples below, use the URI where <strong>"PORT"</strong> is your localhost port number, and <strong>"NUMBER"</strong> is a number between 1 and 10 to retrieve an existing id.</p>
+      <li>You can send a "GET" request to https://localhost:<strong>PORT</strong>/api/Movies - to retrieve a JSON payload containing the viewing statistics for all movies.</li>
+      <li>You can send a "GET" request to https://localhost:<strong>PORT</strong>/api/Movies/<strong>NUMBER</strong> - to retrieve a JSON payload containing all metadata for a specific movie.</li>
+      <li>You can send a "POST" request to https://localhost:51146/api/Movies with a payload simmilar to the example below, to "Create" a resource on the storage medium.</li>
+      <br />
+      <br />
+      <div class="floatRight">
+          <p><u>Example payload</u></p>
+          <p>
+              {<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;"movieId": 99,<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;"title": "The A Team",<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;"averageWatchDurationS": "4309295",<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;"watches": 1000,<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;"releaseYear": "2001"<br />
+              }<br />
+          </p>
+      </div>
+
+  </section>
+
+
+
+  <footer id="pageFooter">
+  <section id="quickLinks">
+  <h1>Quick Nav</h1>
+    <ul id="quickNav">
+      <li><a href="/" title="Our home page">Home</a></li>
+      <li><a href="#" title="What we think">Mission</a></li>
+      <li><a href="#" title="Guidance and planning">Resources</a></li>
+      <li><a href="#" title="Contact and support">Contact</a></li>
+    </ul>
+  </section>
+  <section id="footerResources">
+  <h1>Resources</h1>
+    <ul id="quickNav">
+      <li><a href="#" title="Our home page">FAQ</a></li>
+      <li><a href="#" title="Need help?">Support</a></li>
+      <li><a href="#" title="The fine print">Legal</a></li><li><a href="#">Login</a></li>
+    </ul>
+  </section>
+  </footer>
+
+
+
+
+</div>
+</body>
+</html>
